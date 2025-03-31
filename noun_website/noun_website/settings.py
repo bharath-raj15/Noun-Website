@@ -59,7 +59,7 @@ ROOT_URLCONF = "noun_website.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        'DIRS': [os.path.join(BASE_DIR, 'noun_website', 'noun_homepage', 'templates')],
+        "DIRS": [os.path.join(BASE_DIR, "noun_homepage", "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
