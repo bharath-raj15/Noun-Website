@@ -59,7 +59,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            r"C:\Users\aryan\OneDrive\Desktop\noun_erp_website\noun_website\noun_homepage\templates"
+            r"C:\Users\aryan\OneDrive\Desktop\Noun-Website\noun_website\noun_homepage\templates"
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "noun_website.wsgi.application"
+WSGI_APPLICATION = "noun_website/noun_website.wsgi.application"
 
 
 # Database
