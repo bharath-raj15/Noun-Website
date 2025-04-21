@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,17 +69,14 @@
     </style>
 </head>
 <body>
-    {% load static %}
-<div id="logo">
-    <img src="{% static 'images/nounlogo.png' %}" alt="NOUN Logo">
-</div>
-
+    <div id="logo">
+        <img src="{% static 'images/nounlogo.png' %}" alt="NOUN Logo">
+    </div>
 
     <h1>NOUN</h1>
     <div id="tagline">Next Gen Optimization for Universal Navigation</div>
     
     <div id="coming-soon">COMING SOON</div>
-   
 
     <section id="services">
         <div>ERP Solutions</div>
